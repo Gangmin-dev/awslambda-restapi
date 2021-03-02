@@ -20,6 +20,11 @@ service: restapi
 # Check out our docs for more details
 frameworkVersion: "2"
 
+custom:
+  prune:
+    automatic: true
+    number: 5
+
 provider:
   name: aws
   runtime: nodejs12.x
@@ -112,3 +117,6 @@ functions:
 #     NewOutput:
 #       Description: "Description for the output"
 #       Value: "Some output value"
+
+plugins:
+  - serverless-prune-plugin

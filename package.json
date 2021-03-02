@@ -1,0 +1,27 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gangmin-dev/awslambda-restapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gangmin-dev/awslambda-restapi/issues"
+  },
+  "homepage": "https://github.com/Gangmin-dev/awslambda-restapi#readme",
+  "dependencies": {
+    "aws-sdk": "^2.854.0",
+    "lambda-api": "^0.10.6"
+  },
+  "devDependencies": {
+    "serverless-prune-plugin": "^1.4.3"
+  }
+}
